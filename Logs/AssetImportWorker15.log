@@ -1,0 +1,368 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 49063 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+C:/Users/justi/OneDrive/Bureau/Creative/ethereal/Everglade
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+37823
+Successfully changed project path to: C:/Users/justi/OneDrive/Bureau/Creative/ethereal/Everglade
+C:/Users/justi/OneDrive/Bureau/Creative/ethereal/Everglade
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27984] Host "[IP] 192.168.2.214 [Port] 0 [Flags] 2 [Guid] 3998710515 [EditorId] 3998710515 [Version] 1048832 [Id] WindowsEditor(7,PC-Justine) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27984] Host "[IP] 192.168.2.214 [Port] 0 [Flags] 2 [Guid] 3998710515 [EditorId] 3998710515 [Version] 1048832 [Id] WindowsEditor(7,PC-Justine) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 70.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/justi/OneDrive/Bureau/Creative/ethereal/Everglade/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.2849
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009168 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 66.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.529 seconds
+Domain Reload Profiling:
+	ReloadAssembly (529ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (360ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (76ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (222ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009083 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\justi\OneDrive\Bureau\Creative\ethereal\Everglade\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\justi\OneDrive\Bureau\Creative\ethereal\Everglade\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 64.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.909 seconds
+Domain Reload Profiling:
+	ReloadAssembly (909ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (706ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (179ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (369ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3734 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (185.5 KB). Loaded Objects now: 4189.
+Memory consumption went from 142.8 MB to 142.6 MB.
+Total: 3.114600 ms (FindLiveObjects: 0.330700 ms CreateObjectMapping: 0.089600 ms MarkObjects: 2.592200 ms  DeleteObjects: 0.101500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 113017.458033 seconds.
+  path: Assets/Scenes/Farm/Farm.png
+  artifactKey: Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm.png using Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70be704916c77538bd39efc8f39f87c1') in 0.124012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.712539 seconds.
+  path: Assets/Scenes/Farm/Farm.png
+  artifactKey: Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm.png using Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8178d268b8ce3e41569e6a80bf1dfbd') in 0.046863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/Farm/Farm_12.asset
+  artifactKey: Guid(8dd4caf6b65ad084e94fb4e995251988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm_12.asset using Guid(8dd4caf6b65ad084e94fb4e995251988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da615b7d1e9403fd50233e1bf0aaeee') in 0.012461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.507642 seconds.
+  path: Assets/Scenes/Farm/Farm.png
+  artifactKey: Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm.png using Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93657941013383ae4634060ef11f99a') in 0.026822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/Farm/Farm_11.asset
+  artifactKey: Guid(84db93fa929af4347bd2013009d0b0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm_11.asset using Guid(84db93fa929af4347bd2013009d0b0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7054a50686cd66af52feb1d739453b94') in 0.006572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Farm/Farm_14.asset
+  artifactKey: Guid(95bbceb02ab1cb24db1b51ad389bcee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm_14.asset using Guid(95bbceb02ab1cb24db1b51ad389bcee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98213efae09dc3f265bf0c33b1b698d8') in 0.004600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.175038 seconds.
+  path: Assets/Scenes/Farm/Farm.png
+  artifactKey: Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm.png using Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2953358947ad0f652ba3616359b57e83') in 0.053515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.390929 seconds.
+  path: Assets/Scenes/Farm/Farm.png
+  artifactKey: Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm.png using Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a0eb2d74c5d978c4eed67f3f2c88ee') in 0.048482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Farm/Farm_12.asset
+  artifactKey: Guid(8dd4caf6b65ad084e94fb4e995251988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm_12.asset using Guid(8dd4caf6b65ad084e94fb4e995251988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384a081f98edd476f3c90fc9d248b3bb') in 0.007729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.926362 seconds.
+  path: Assets/Scenes/Farm/Farm.png
+  artifactKey: Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm.png using Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6570b48bef5ec82e7c62d9f9c9abef0') in 0.047876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.076881 seconds.
+  path: Assets/Scenes/Farm/Farm.png
+  artifactKey: Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm.png using Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37cc082eb491a897d8dace38b427526') in 0.050288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.604645 seconds.
+  path: Assets/Scenes/Farm/Farm.png
+  artifactKey: Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm.png using Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54dc4f31b9226f308ecd6aaa81068695') in 0.042032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/Farm/Farm_12.asset
+  artifactKey: Guid(8dd4caf6b65ad084e94fb4e995251988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm_12.asset using Guid(8dd4caf6b65ad084e94fb4e995251988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f39d3d166849d2ecee7b53e3c9ece9') in 0.008983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.381420 seconds.
+  path: Assets/Scenes/Farm/Farm.png
+  artifactKey: Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm.png using Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576c3beb071972e657092f0d1ebedaa6') in 0.033985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Farm/Farm_13.asset
+  artifactKey: Guid(a1b6a1e6a21cc864da5b18c76d11dab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm_13.asset using Guid(a1b6a1e6a21cc864da5b18c76d11dab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c317865ec09a362a090e7e4239fb31de') in 0.009337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.493247 seconds.
+  path: Assets/Scenes/Farm/Farm.png
+  artifactKey: Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm.png using Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80aeac5f56adaa0a8ac699866cdee15f') in 0.032451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Farm/Farm_14.asset
+  artifactKey: Guid(95bbceb02ab1cb24db1b51ad389bcee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm_14.asset using Guid(95bbceb02ab1cb24db1b51ad389bcee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ac92dac3b170a390ec3be754a9be11') in 0.005657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.756747 seconds.
+  path: Assets/Scenes/Farm/Farm.png
+  artifactKey: Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm.png using Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c0d11ee3f27e7262a7a52b364b3e96') in 0.054501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.303039 seconds.
+  path: Assets/Scenes/Farm/Farm.png
+  artifactKey: Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm.png using Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a758593d2d76191eec040325b3b1993b') in 0.045809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.684714 seconds.
+  path: Assets/Scenes/Farm/Farm.png
+  artifactKey: Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm.png using Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d838197647e4a6f3c9ad48c275d051') in 0.060137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.985820 seconds.
+  path: Assets/Scenes/Farm/Farm.png
+  artifactKey: Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm.png using Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196789376093bab8ba66c1cd383fbd63') in 0.024311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Farm/Farm_11.asset
+  artifactKey: Guid(84db93fa929af4347bd2013009d0b0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm_11.asset using Guid(84db93fa929af4347bd2013009d0b0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb3f7fc9c393070f4c2c75fd6383622') in 0.011448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.085017 seconds.
+  path: Assets/Scenes/Farm/Farm.png
+  artifactKey: Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm.png using Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793e8d1fb036a5fac053f8b359409aad') in 0.037536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/Farm/Farm_14.asset
+  artifactKey: Guid(95bbceb02ab1cb24db1b51ad389bcee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm_14.asset using Guid(95bbceb02ab1cb24db1b51ad389bcee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4acccba44cb495a1c2fe4503b620c6') in 0.006308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.140223 seconds.
+  path: Assets/Scenes/Farm/Farm.png
+  artifactKey: Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm.png using Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5370ed4bd8ffb710436c281ba75cc084') in 0.050450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.683454 seconds.
+  path: Assets/Scenes/Farm/Farm.png
+  artifactKey: Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm.png using Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097254d36b16ca66bc0d553a2dcf9ac1') in 0.027338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Farm/Farm_11.asset
+  artifactKey: Guid(84db93fa929af4347bd2013009d0b0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm_11.asset using Guid(84db93fa929af4347bd2013009d0b0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fa6612bdfc15a9acd7de9f0b14a4b7') in 0.015722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.433749 seconds.
+  path: Assets/Scenes/Farm/Farm.png
+  artifactKey: Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm.png using Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0221c090fea872ff63ec9dd1fc8e27e') in 0.061199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.956026 seconds.
+  path: Assets/Scenes/Farm/Farm.png
+  artifactKey: Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm.png using Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e71d1bc8d9aa812710184bb5bf471c') in 0.030840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Farm/Farm_11.asset
+  artifactKey: Guid(84db93fa929af4347bd2013009d0b0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm_11.asset using Guid(84db93fa929af4347bd2013009d0b0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461e5c613750697637dad0266429f385') in 0.005207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.760150 seconds.
+  path: Assets/Scenes/Farm/Farm.png
+  artifactKey: Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm.png using Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a437dc9e13e782de21e2ddc6980e4c2a') in 0.046633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.735892 seconds.
+  path: Assets/Scenes/Farm/Farm.png
+  artifactKey: Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm.png using Guid(8da2eab154a864e42a36958945311b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c12856172c40c525dee8b59b82b39fa') in 0.029462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/Farm/Farm_11.asset
+  artifactKey: Guid(84db93fa929af4347bd2013009d0b0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Farm/Farm_11.asset using Guid(84db93fa929af4347bd2013009d0b0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c102cad2005dcb07c45b8a0c94b707f') in 0.005904 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
