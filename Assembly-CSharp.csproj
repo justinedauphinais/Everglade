@@ -57,6 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Characters\MainCharacter\PlayerMovement.cs" />
+    <Compile Include="Assets\Characters\Penelope\PenelopeSorting.cs" />
+    <Compile Include="Assets\Scripts\GridController.cs" />
+    <Compile Include="Assets\Scripts\HoeingController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
