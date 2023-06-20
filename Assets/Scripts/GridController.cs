@@ -22,7 +22,6 @@ public class GridController : MonoBehaviour
         Vector3Int mousePos = GetMousePosition();
         if (!mousePos.Equals(previousMousePos))
         {
-            UnityEngine.Debug.Log(mousePos);
             interactiveMap.SetTile(previousMousePos, null); // Remove old hoverTile
             interactiveMap.SetTile(mousePos, hoverTile);
             previousMousePos = mousePos;
