@@ -368,11 +368,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Characters/MainCharacter/HoeingController.cs"
 "Assets/Characters/MainCharacter/InteractionManager.cs"
 "Assets/Characters/MainCharacter/PlayerMovement.cs"
 "Assets/Characters/Sorting.cs"
-"Assets/Scripts/GridController.cs"
-"Assets/Scripts/HoeingController.cs"
+"Assets/Maps/GridController.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
@@ -407,6 +407,9 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/UI/Dialog/DialogueObject.cs"
+"Assets/UI/Dialog/DialogueUIController.cs"
+"Assets/UI/Dialog/TypewriterEffect.cs"
 -langversion:9.0
 
 /deterministic
