@@ -9,18 +9,22 @@ public class HoeingController : MonoBehaviour
     [SerializeField] private Tile hoedTile;
     [SerializeField] private Tile unhoedTile;
 
+    [SerializeField] private DialogueUIController dialogueUI;
+
     private bool isHoeing = false;
     private bool isUnhoeing = false;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
+        if (dialogueUI.IsOpen)
+        {
+            Debug.Log("Can't hoe");
+            return;
+        }
+
+        Debug.Log("Can hoe");
+
         if (Input.GetMouseButton(0))
         {
             Vector3Int mousePos = GetMousePosition();

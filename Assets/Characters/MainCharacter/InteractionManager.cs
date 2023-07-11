@@ -34,8 +34,6 @@ public class InteractionManager : MonoBehaviour
             //ellipsisSpriteRenderer.enabled = true;
             pressEToTalkPromptSpriteRenderer.enabled = true;
 
-            UnityEngine.Debug.Log(collision.gameObject);
-
             pressEToTalkPrompt.GetComponent<Transform>().position = new Vector3(collision.gameObject.transform.position.x, collision.gameObject.transform.position.y + 2.1f);
 
             //ellipsisAnimator.enabled = true;

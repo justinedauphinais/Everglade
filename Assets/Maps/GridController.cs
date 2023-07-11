@@ -8,16 +8,19 @@ public class GridController : MonoBehaviour
     [SerializeField] private Tilemap interactiveMap;
     [SerializeField] private Tile hoverTile;
 
-    private Vector3Int previousMousePos = new Vector3Int();
+    [SerializeField] private DialogueUIController dialogueUI;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
+    private Vector3Int previousMousePos = new Vector3Int();
 
     // Update is called once per frame
     void Update()
     {
+        if (dialogueUI.IsOpen)
+        {
+            interactiveMap.SetTile(previousMousePos, null); // Remove old hoverTile
+            return;
+        }
+
         // Mouse over -> highlight tile
         Vector3Int mousePos = GetMousePosition();
         if (!mousePos.Equals(previousMousePos))

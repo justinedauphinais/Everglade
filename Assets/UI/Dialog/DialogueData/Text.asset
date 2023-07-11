@@ -13,7 +13,16 @@ MonoBehaviour:
   m_Name: Text
   m_EditorClassIdentifier: 
   dialogue:
-  - "This is my dialogue! \nHello."
+  - 'This, is my, dialogue!!!!!!.....
+
+    Hello.'
   - 'This is our second dialogue.
 
     Goodbye!'
+  responses:
+  - responseText: Yes
+    dialogueObject: {fileID: 11400000, guid: 349a58e6cdf25894887d51fd29b4b341, type: 2}
+  - responseText: No
+    dialogueObject: {fileID: 11400000, guid: 2c08ff7461e43f9498d9901a8b62138a, type: 2}
+  - responseText: Maybe
+    dialogueObject: {fileID: 11400000, guid: 2c08ff7461e43f9498d9901a8b62138a, type: 2}
